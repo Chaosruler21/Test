@@ -1,0 +1,6 @@
+import java.util.Arrays;
+class ArrayAssign{
+public static void main(final String[] args) {
+int[] ages = {50, 40, 30, 20};
+ages = Arrays.copyOf(ages, 5);
+System.out.println(Arrays.toString(ages));
