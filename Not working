@@ -1,15 +1,6 @@
-char sport = 'n';
-char outdoor = 'n';
-if(sport == 'n') {
-  if(outdoor == 'n') {
-    System.out.println("No sport.");
-  }
-}
-else {
-  if(outdoor == 'n') {
-    System.out.println("Indoor sport.");
-  }
-  else {
-    System.out.println("Outdoor sport.");
-  }
-}
+import java.util.Arrays;
+class ArrayAssign{
+public static void main(final String[] args) {
+int[] ages = {50, 40, 30, 20};
+ages = Arrays.copyOf(ages, 5);
+System.out.println(Arrays.toString(ages));
